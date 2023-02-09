@@ -38,7 +38,12 @@ body {
 
 /* animation based on a design by Evavic44 */
 @keyframes dvd {
-   15% {
+   0% {
+      top: 0%;
+      left: 0%;
+   }
+
+   18% {
       top: 90%;
       left: 45%;
    }
@@ -48,22 +53,22 @@ body {
       left: 88%;
    }
 
-   45% {
+   41% {
       top: 0%;
       left: 50%;
    }
 
-   60% {
+   56% {
       top: 60%;
       left: 0%;
    }
 
-   75% {
+   67% {
       top: 90%;
       left: 30%;
    }
 
-   90% {
+   83% {
       top: 40%;
       left: 88%;
 
@@ -78,11 +83,12 @@ body {
 h1 {
 	margin: 0px;
 	padding: 5px;
-	font-family: Helvetica, sans-serif;
+	font-family: Tahoma, sans-serif;
 	font-size: 40pt;
 	position: relative;
-	top: 0;
-	left: 0;
 	animation: 20s linear infinite rainbow, 20s forwards linear infinite alternate-reverse dvd;
 }
 
+a {
+	text-decoration: none;
+}
