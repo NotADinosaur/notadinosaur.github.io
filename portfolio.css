@@ -1,1 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
 
+body {
+	background: linear-gradient(to bottom right, #027, #48a);
+	background-attachment: fixed;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+}
+
+h1 {
+	font-weight: 300;
+	margin: 20px 0;
+	text-shadow: 0 1px 5px rgba(0,0,0,.8);
+	text-transform: uppercase;
+}
