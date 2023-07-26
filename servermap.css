@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+	background: linear-gradient(to bottom right, #8492e8, #04a);
+	background-attachment: fixed;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 40px;
+	margin: 20px 0;
+	text-shadow: 0 1px 5px rgba(0,0,0,0.8);
+	color: #fff;
+}
+
+embed {
+	border: 2px solid black;
+	width: 98%;
+	height: 75vh;
+}
+
+.mono {
+	font-family: monospace;
+	font-weight: 400;
+	display: inline-block;
+	margin: 10px 50px 10px 10px;
+}
+
+#nr {
+	margin-right: 0;
+}
