@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type = text/css>
+			body {
+				background: linear-gradient(to bottom right, #421EBD, #8B2B9B);
+				background-attachment: fixed;
+				text-align: center;
+				font-family: sans-serif;
+				font-size: 16px;
+				font-weight: 400;
+				color: #FFFFFF;
+				text-shadow: 0 1px 5px rgba(0,0,0,0.8);
+				margin: 15px;
+			}
+			img {
+				width: 800px;
+				border: 3px solid black;
+			}
+			.grid-container {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+				grid-gap: 15px;
+			}
+			figcaption {
+				margin-top: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Cameras Used</h1>
+		<p>
+		 - iphone 5c <br />
+		 - iphone 12 mini (normal & raw)<br />
+		 - fujifilm f200 exr (2009 point-and-shoot)<br />
+		 - sony a6000<br />
+		 - nintendo 3ds (idk why not lol)<br />
+		<br />note: all used in auto mode
+		</p>
+		<h1>Test 1: landscape</h1>
+		<div class = "grid-container">
+			<div class = grid-item>
+				<img src = "./img/5c_landscape.jpg">
+				<figcaption>iphone 5c</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/12_landscape.jpg">
+				<figcaption>iphone 12 mini</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/raw12_landscape.jpg">
+				<figcaption>iphone 12 mini (raw)</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/a6k_landscape.jpg">
+				<figcaption>sony a6000</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/f200_landscape.jpg">
+				<figcaption>fujifilm f200 exr</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/n3ds_landscape.jpg">
+				<figcaption>nintendo 3ds</figcaption>
+			</div>
+		</div>
+		<h1>Test 2: close-up</h1>
+		<div class = "grid-container">
+			<div class = grid-item>
+				<img src = "./img/5c_macro.jpg">
+				<figcaption>iphone 5c</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/12_macro.jpg">
+				<figcaption>iphone 12 mini</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/raw12_macro.jpg">
+				<figcaption>iphone 12 mini (raw)</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/a6k_macro.jpg">
+				<figcaption>sony a6000</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/f200_macro.jpg">
+				<figcaption>fujifilm f200 exr</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/n3ds_macro.jpg">
+				<figcaption>nintendo 3ds</figcaption>
+			</div>
+		</div>
+		<h1>Test 3: low-light</h1>
+		<div class = "grid-container">
+			<div class = grid-item>
+				<img src = "./img/5c_dark.jpg">
+				<figcaption>iphone 5c</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/12_dark.jpg">
+				<figcaption>iphone 12 mini</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/raw12_dark.jpg">
+				<figcaption>iphone 12 mini (raw)</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/a6k_dark.jpg">
+				<figcaption>sony a6000</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/f200_dark.jpg">
+				<figcaption>fujifilm f200 exr</figcaption>
+			</div>
+			<div class = grid-item>
+				<img src = "./img/n3ds_dark.jpg">
+				<figcaption>nintendo 3ds</figcaption>
+			</div>
+		</div>
+	</body>
+</html>
