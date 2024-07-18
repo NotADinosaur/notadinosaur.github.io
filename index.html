@@ -9,26 +9,60 @@
 		<meta property="og:title" content="test website because yes">
 		<meta property="og:description" content="look, I made a website!">
 		<style type=text/css>
-			@import url("https://fonts.googleapis.com/css2?family=Fira+Mono");
 			body {
 			background: no-repeat top/cover url("./img/clouds.jpg");
 			width: 100vw;
 			height: 100vh;
 			overflow: hidden;
-			font-family: "Fira Mono", monospace;
-			color: #FFFFFF;
+			font-family: sans-serif;
 			}
 			h1 {
 				font-size: 2.2em;
 			}
 			h2 {
 				font-size: 1.2em;
+				margin-top: 0;
+			}
+			.container {
+				height: 100vh;
+				width: 100vw;
+				display: table-cell;
+				vertical-align: middle;
+				animation: rainbow 20s linear infinite;
+				text-align: center;
+			}
+			@keyframes rainbow {
+				0% {
+					color: #ff0000;
+				}
+				14% {
+					color: #ff8E00;
+				}
+				28% {
+					color: #ffff00;
+				}
+				43% {
+					color: #008e00;
+				}
+				57% {
+					color: #004dff;
+				}
+				71% {
+					color: #990fae;
+				}
+				86% {
+					color: #ff69b4;
+				}
+				100% {
+					color: #ff0000;
+				}
 			}
 		</style>
 	</head>
 	<body>
-		<img src="./img/sample.png">
-		<h1>Heya!</h1>
-		<h2>Welcome to my website :D</h2>
+		<div class="container">
+			<h1>Hi! :D</h1>
+			<h2>This my website.</h2>
+		</div>
 	</body>
 </html>
